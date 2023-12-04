@@ -50,14 +50,14 @@ body {
   font-weight: medium;
 }
 .weather-tittle,
-.about-square h1 {
+.content-square h1 {
   font-family: var(--primary-font-family);
   font-weight: bold;
   font-size: 64px;
 }
 .weather-prg,
 .btn-project,
-.about-square p {
+.content-square p {
   font-family: var(--secondary-font-family);
   font-size: 16px;
   line-height: 30px;
@@ -65,7 +65,7 @@ body {
 .projects-apps {
   padding: 60px 60px;
 }
-.about-square h4 {
+.content-square h4 {
   font-family: var(--secondary-font-family);
   font-size: 18px;
   font-weight: bold;
@@ -74,11 +74,11 @@ body {
   width: 500px;
   border-radius: 10px;
 }
-.about-square {
+.content-square {
   padding: 200px 80px;
 }
 
-.about-square p {
+.content-square p {
   width: 90%;
 }
 
@@ -97,11 +97,11 @@ body {
     margin-bottom: 50px;
     text-align: center;
   }
-  .about-square {
+  .content-square {
     padding: 0;
     text-align: center;
   }
-  .about-square img {
+  .content-square img {
     margin-top: 70px;
   }
 }
