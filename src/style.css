@@ -50,18 +50,24 @@ body {
   font-weight: medium;
 }
 .weather-tittle,
-.content-square h1 {
+.about-tittle {
   font-family: var(--primary-font-family);
   font-weight: bold;
   font-size: 64px;
 }
 .weather-prg,
-.btn-project,
-.content-square p {
+.btn-project {
   font-family: var(--secondary-font-family);
   font-size: 16px;
   line-height: 30px;
 }
+.about-prg {
+  font-family: var(--secondary-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  width: 90%;
+}
+
 .projects-apps {
   padding: 60px 60px;
 }
@@ -70,16 +76,36 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
+.content-square h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.work-prg {
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  text-align: center;
+  color: #272142;
+}
+.work-tittle {
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 100px;
+}
+.work-img {
+  width: 540px;
+}
 .photo-oriana {
   width: 500px;
   border-radius: 10px;
 }
+
 .content-square {
   padding: 200px 80px;
-}
-
-.content-square p {
-  width: 90%;
 }
 
 @media (max-width: 960px) {
@@ -101,7 +127,10 @@ body {
     padding: 0;
     text-align: center;
   }
-  .content-square img {
+  .photo-oriana {
+    margin-top: 70px;
+  }
+  .work-tittle {
     margin-top: 70px;
   }
 }
