@@ -56,6 +56,10 @@ body {
   font-weight: bold;
   font-size: 64px;
 }
+.contact-tittle {
+  margin-bottom: 50px;
+  margin-top: -30px;
+}
 .weather-prg,
 .btn-project {
   font-family: var(--secondary-font-family);
