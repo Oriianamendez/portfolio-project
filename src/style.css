@@ -8,6 +8,26 @@
 body {
   max-width: 1440px;
 }
+nav ul {
+  padding: 0;
+  margin-top: 25px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--secondary-font-family);
+  margin-left: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+}
+
 .square {
   background: var(--branding-color);
   padding: 200px 30px;
@@ -113,6 +133,13 @@ body {
   padding: 200px 80px;
 }
 
+.logo {
+  max-height: 40px;
+  margin-top: 20px;
+  margin-left: 140px;
+  margin-bottom: 15px;
+}
+
 @media (max-width: 960px) {
   .square h1 {
     font-size: 50px;
@@ -137,5 +164,12 @@ body {
   }
   .work-tittle {
     margin-top: 70px;
+  }
+  .logo {
+    padding: 0;
+    margin: 15px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
