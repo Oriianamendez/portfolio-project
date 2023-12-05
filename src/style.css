@@ -85,6 +85,10 @@ nav li.active a {
   font-family: var(--secondary-font-family);
   font-size: 16px;
   line-height: 30px;
+  margin-top: 25px;
+}
+.second-prg {
+  margin-right: 25px;
 }
 .about-prg {
   font-family: var(--secondary-font-family);
@@ -170,6 +174,9 @@ nav li.active a {
     margin: 15px;
   }
   nav a {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .weather-prg {
+    margin-left: 24px;
   }
 }
