@@ -59,6 +59,11 @@ nav li.active a {
   font-weight: medium;
   line-height: 27px;
 }
+.btn-branding:hover {
+  color: var(--button-color);
+  background: var(--branding-color);
+  border-color: var(--button-color);
+}
 .weather-image img {
   width: 560px;
 }
@@ -142,7 +147,59 @@ nav li.active a {
   margin-left: 140px;
   margin-bottom: 15px;
 }
-
+footer .email-link {
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--button-color);
+  transition: all 200ms ease-in-out;
+}
+footer a {
+  text-decoration: none;
+}
+.social-links {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+footer .social-links i {
+  color: var(--button-color);
+  margin: 30px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: rgb(108, 99, 255, 0.1);
+  transition: all 150ms ease-in-out;
+}
+footer .social-links i:hover {
+  color: var(--branding-color);
+  background: var(--button-color);
+}
+footer h4 {
+  font-size: 48px;
+  font-family: var(--primary-font-family);
+}
+footer p {
+  font-size: 18px;
+  font-family: var(--secondary-font-family);
+  color: rgb(39, 33, 66, 0.7);
+}
+footer h4,
+footer p {
+  text-align: start;
+}
+footer .contact-box {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 40px 40px 40px 100px;
+  background-color: var(--branding-color);
+  border-radius: 20px;
+}
+footer .btn {
+  margin-right: -80px;
+  margin-top: 30px;
+}
 @media (max-width: 960px) {
   .square h1 {
     font-size: 50px;
@@ -181,5 +238,21 @@ nav li.active a {
   }
   .contact-tittle {
     margin-top: 100px;
+  }
+  footer .contact-box {
+    padding: 10px;
+    margin: 70px 0;
+  }
+  footer h4,
+  footer p {
+    text-align: center;
+  }
+  footer .btn {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  footer h4 {
+    font-size: 40px;
   }
 }
