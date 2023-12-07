@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Oriana Mendez</title>
+    <meta
+      name="description"
+      content="Contact Oriana. She is a front-end developer based in Sweden."
+    />
+    <title>Contact Oriana - Oriana Mendez</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,24 +33,81 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="Logo of SheCodes"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/logo-small.png"
+            alt="Small logo of Shecodes"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Oriana">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Oriana's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Oriana">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-square container">
       <h1 class="text-center contact-tittle">Let's get in touch!</h1>
-      <h3>Email</h3>
-      <p class="text-center">
-        <a href="mailto:egleemendez@gmail.com">egleemendez@gmail.com</a>
-      </p>
-      <h3>Twitter</h3>
-      <p class="text-center">
-        <a href="https://www.twitter.com/oriianamendez/" target="_blank"
-          >@oriianamendez</a
-        >
-      </p>
-      <h3>Instagram</h3>
-      <p class="text-center">
-        <a href="https://www.instagram.com/oriianamendez/" target="_blank"
-          >@oriianamendez</a
-        >
-      </p>
+      <div class="social-media">
+        <div class="text-center">
+          <i class="fa-solid fa-envelope"></i>
+          <p>
+            <a
+              href="mailto:egleemendez@gmail.com"
+              class="text-decoration-none each-media"
+              >egleemendez@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="text-center">
+          <i class="fa-brands fa-github"></i>
+          <p>
+            <a
+              href="https://github.com/Oriianamendez"
+              target="_blank"
+              class="text-decoration-none each-media"
+              >Oriianamendez</a
+            >
+          </p>
+        </div>
+        <div class="text-center">
+          <i class="fa-brands fa-twitter"></i>
+          <p>
+            <a
+              href="https://www.twitter.com/oriianamendez/"
+              target="_blank"
+              class="text-decoration-none each-media"
+              >@oriianamendez</a
+            >
+          </p>
+        </div>
+      </div>
     </div>
+    <p class="text-center text-dark contact-footer">
+      This project was coded by Oriana Mendez, and it is
+      <a
+        href="https://github.com/Oriianamendez/portfolio-project"
+        class="text-decoration-none"
+        target="_blank"
+        >open-sourced</a
+      >
+    </p>
   </body>
 </html>
