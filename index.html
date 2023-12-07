@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Oriana Mendez</title>
+    <meta
+      name="description"
+      content="Oriana is a front-end developer based in Sweden."
+    />
+    <title>Front-end developer - Oriana Mendez</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,7 +35,7 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
             alt="Logo of SheCodes"
@@ -45,16 +49,16 @@
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Oriana">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Oriana's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Oriana">Contact</a>
           </li>
         </ul>
       </nav>
@@ -64,7 +68,9 @@
       <h1>Oriana Mendez</h1>
       <h2>Front-end developer based in Sweden.</h2>
       <div>
-        <a href="#" class="btn btn-branding">Get Started</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -85,7 +91,7 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">View detail project</a>
+          <a href="/work.html" class="btn btn-project">Learn more</a>
         </div>
       </div>
     </div>
@@ -99,7 +105,7 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">View detail project</a>
+          <a href="/work.html" class="btn btn-project">Learn more</a>
         </div>
         <div
           class="col weather-image shadow p-3 mb-5 rounded d-none d-lg-block text-center"
@@ -116,23 +122,53 @@
             <p>Let’s work together and i’ll help you by all my best</p>
           </div>
           <div class="col-md">
-            <a href="" class="btn btn-branding">Let's talk here</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Oriana"
+              >Let's talk here</a
+            >
           </div>
         </div>
-        <a href="mailto:egleemendez@gmail.com" class="email-link"
+        <a
+          href="mailto:egleemendez@gmail.com"
+          class="email-link"
+          title="Email Oriana"
           >egleemendez@gmail.com</a
         >
         <div class="social-links">
-          <a href="https://www.instagram.com/oriianamendez/" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://github.com/Oriianamendez" target="_blank">
+          <a
+            href="https://github.com/Oriianamendez"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.twitter.com/oriianamendez/" target="_blank">
+          <a
+            href="https://www.instagram.com/oriianamendez/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.twitter.com/oriianamendez/"
+            target="_blank"
+            title="Twitter account"
+          >
             <i class="fa-brands fa-twitter"></i>
           </a>
         </div>
+        <p class="text-center mb-5 text-dark">
+          This project was coded by Oriana Mendez, and it is
+          <a
+            href="https://github.com/Oriianamendez/portfolio-project"
+            class="text-decoration-none"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

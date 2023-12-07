@@ -30,7 +30,7 @@ nav li.active a {
 
 .square {
   background: var(--branding-color);
-  padding: 200px 30px;
+  padding: 100px 30px;
 }
 .square h1 {
   font-family: var(--primary-font-family);
@@ -82,7 +82,7 @@ nav li.active a {
   font-size: 64px;
 }
 .contact-tittle {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   margin-top: -30px;
 }
 .weather-prg,
@@ -138,7 +138,7 @@ nav li.active a {
 }
 
 .content-square {
-  padding: 200px 80px;
+  padding: 60px 80px;
 }
 
 .logo {
@@ -161,12 +161,12 @@ footer a {
 }
 .social-links {
   margin-top: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 footer .social-links i {
   color: var(--button-color);
   margin: 30px;
-  padding: 15px;
+  padding: 16px;
   font-size: 20px;
   border-radius: 50%;
   background-color: rgb(108, 99, 255, 0.1);
@@ -200,6 +200,26 @@ footer .btn {
   margin-right: -80px;
   margin-top: 30px;
 }
+.content-square i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #413e76;
+}
+.content-square .social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content-square .each-media {
+  color: #413e76;
+  transition: all 150ms ease-in-out;
+}
+.content-square .each-media:hover {
+  color: var(--button-color);
+}
+.contact-footer {
+  margin-top: 150px;
+}
+
 @media (max-width: 960px) {
   .square h1 {
     font-size: 50px;
@@ -254,5 +274,8 @@ footer .btn {
   }
   footer h4 {
     font-size: 40px;
+  }
+  .content-square .social-media {
+    display: block;
   }
 }
