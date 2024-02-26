@@ -27,6 +27,13 @@ nav a:hover,
 nav li.active a {
   color: var(--button-color);
 }
+.oriLogo {
+  height: 0px;
+  width: 500px;
+  padding-top: 10px;
+  font-size: 30px;
+  font-family: var(--primary-font-family);
+}
 
 .square {
   background: var(--branding-color);
@@ -141,12 +148,6 @@ nav li.active a {
   padding: 60px 80px;
 }
 
-.logo {
-  max-height: 40px;
-  margin-top: 20px;
-  margin-left: 140px;
-  margin-bottom: 15px;
-}
 footer .email-link {
   font-family: var(--secondary-font-family);
   font-size: 24px;
@@ -245,10 +246,6 @@ footer .btn {
   .work-tittle {
     margin-top: 70px;
     font-size: 50px;
-  }
-  .logo {
-    padding: 0;
-    margin: 15px;
   }
   nav a {
     font-size: 12px;
