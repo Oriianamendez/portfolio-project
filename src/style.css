@@ -24,12 +24,12 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
-.weather-link:hover,
+.work-link:hover,
 nav li.active a {
   color: var(--button-color);
   transition: all 100ms ease-in-out;
 }
-.weather-link {
+.work-link {
   color: black;
   text-decoration: none;
 }
