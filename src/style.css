@@ -255,12 +255,8 @@ footer .btn {
     font-size: 50px;
   }
 
-  nav a {
-    font-size: 12px;
-  }
   .oriLogo {
-    font-size: 22px;
-    padding-top: 25px;
+    display: none;
   }
   .second-prg {
     margin-right: 0;
